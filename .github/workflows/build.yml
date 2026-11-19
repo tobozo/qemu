@@ -56,7 +56,7 @@ jobs:
 
         include:
           - platform: x86_64-linux-gnu
-            runs_on: ubuntu-22.04
+            runs_on: ubuntu-26.04
             # Debian 11 provides the lowest possible Glibc version (2.31), given QEMU's glib2 => 2.66 requirement.
             container: debian:11.11
             shell: bash -e {0}
